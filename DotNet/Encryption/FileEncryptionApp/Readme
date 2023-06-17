@@ -1,0 +1,32 @@
+ File Encryption App
+The File Encryption App is a simple desktop application written in C# using Windows Forms. The application allows users to encrypt and decrypt text files using chosen algorithms: TripleDES or AES.
+
+Algorithms
+TripleDES (3DES): This is a symmetric encryption algorithm. It's an improved version of the DES algorithm, which is now considered insecure. TripleDES applies the DES algorithm three times to each data block, increasing security at the cost of performance.
+
+AES (Advanced Encryption Standard): This is a symmetric block encryption algorithm that is considered one of the most secure publicly available algorithms. It is faster and more secure than TripleDES.
+
+How it works
+The main form of the application contains the following controls:
+
+btnEncrypt: a button to encrypt the selected file.
+btnDecrypt: a button to decrypt the selected file.
+txtFilePath: a text field for entering the file path or displaying the selected path.
+btnBrowse: a button for browsing the file system and selecting a file to encrypt/decrypt.
+rdoTripleDES and rdoAES: radio buttons for selecting the encryption algorithm.
+Clicking btnBrowse will open a file selection dialog, allowing the user to select a file. The chosen file path will automatically populate txtFilePath.
+
+After selecting a file, the user can choose one of two encryption algorithms: TripleDES or AES. Then, clicking btnEncrypt will encrypt the selected file, and clicking btnDecrypt will decrypt it. The resulting files are saved in the same directory as the original file, with "encrypted_" or "decrypted_" prefixes added to the original file name.
+
+How to run the project
+Clone the repository to your local file system.
+Open the project in Visual Studio.
+Ensure all required NuGet packages are installed.
+Run the project by pressing Ctrl+F5.
+In the main form of the application, click btnBrowse and select a file to encrypt or decrypt.
+Choose an encryption algorithm by selecting one of the radio buttons.
+Click btnEncrypt to encrypt the selected file, or btnDecrypt to decrypt it.
+Check the directory of the input file to see the resulting files.
+Important Information
+Files are saved in the same directory as the original file.
+Resulting files are named with "encrypted_" or "decrypted_" prefixes added to the original file name.
