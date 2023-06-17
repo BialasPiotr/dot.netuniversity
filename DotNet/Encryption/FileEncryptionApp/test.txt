@@ -1,0 +1,7 @@
+Hello, world!
+This is a sample text file for testing the encryption and decryption functionality of our application.
+We are using two symmetric encryption algorithms: AES and Triple DES.
+These algorithms work on blocks of data, so the input data should be a multiple of the block size.
+However, we are using padding, which automatically adds extra data to make the input fit into a block.
+So, we can input any text we want without worrying about the block size.
+Good luck with your testing!
