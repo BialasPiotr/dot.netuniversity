@@ -1,32 +1,41 @@
- #File Encryption App
-The File Encryption App is a simple desktop application written in C# using Windows Forms. The application allows users to encrypt and decrypt text files using chosen algorithms: TripleDES or AES.
+# File Encryption App
 
-Algorithms
-TripleDES (3DES): This is a symmetric encryption algorithm. It's an improved version of the DES algorithm, which is now considered insecure. TripleDES applies the DES algorithm three times to each data block, increasing security at the cost of performance.
+The File Encryption App is a simple desktop application developed in C# using Windows Forms. The application allows users to encrypt and decrypt text files utilizing either TripleDES or AES encryption algorithms.
 
-AES (Advanced Encryption Standard): This is a symmetric block encryption algorithm that is considered one of the most secure publicly available algorithms. It is faster and more secure than TripleDES.
+## Encryption Algorithms
 
-How it works
-The main form of the application contains the following controls:
+**TripleDES (3DES):** This is a symmetric encryption algorithm. It's an evolution of the original DES algorithm, which is now considered insecure due to advancements in computational power. TripleDES applies the DES algorithm three times to each data block, thereby significantly enhancing the security but at the cost of performance.
 
-btnEncrypt: a button to encrypt the selected file.
-btnDecrypt: a button to decrypt the selected file.
-txtFilePath: a text field for entering the file path or displaying the selected path.
-btnBrowse: a button for browsing the file system and selecting a file to encrypt/decrypt.
-rdoTripleDES and rdoAES: radio buttons for selecting the encryption algorithm.
-Clicking btnBrowse will open a file selection dialog, allowing the user to select a file. The chosen file path will automatically populate txtFilePath.
+**AES (Advanced Encryption Standard):** This is a symmetric block cipher chosen by the U.S. government to protect classified information and is implemented in software and hardware throughout the world to encrypt sensitive data. It is one of the most secure and fastest encryption methods that are publicly accessible.
 
-After selecting a file, the user can choose one of two encryption algorithms: TripleDES or AES. Then, clicking btnEncrypt will encrypt the selected file, and clicking btnDecrypt will decrypt it. The resulting files are saved in the same directory as the original file, with "encrypted_" or "decrypted_" prefixes added to the original file name.
+## Application Operation
 
-How to run the project
-Clone the repository to your local file system.
-Open the project in Visual Studio.
-Ensure all required NuGet packages are installed.
-Run the project by pressing Ctrl+F5.
-In the main form of the application, click btnBrowse and select a file to encrypt or decrypt.
-Choose an encryption algorithm by selecting one of the radio buttons.
-Click btnEncrypt to encrypt the selected file, or btnDecrypt to decrypt it.
-Check the directory of the input file to see the resulting files.
-Important Information
-Files are saved in the same directory as the original file.
-Resulting files are named with "encrypted_" or "decrypted_" prefixes added to the original file name.
+The application's main form includes the following controls:
+
+- **btnEncrypt:** A button to start the encryption process for the chosen file.
+- **btnDecrypt:** A button to initiate the decryption process for the selected file.
+- **txtFilePath:** A text field to input or display the selected file's path.
+- **btnBrowse:** A button to open the file explorer and choose the desired file for encryption or decryption.
+- **rdoTripleDES and rdoAES:** Radio buttons to choose the preferred encryption algorithm.
+
+Clicking `btnBrowse` opens a file selection dialog, enabling the user to select a file for encryption or decryption. The selected file's path will automatically appear in the `txtFilePath` field.
+
+After selecting the file, the user can choose either the TripleDES or AES encryption algorithm. Following this, clicking on `btnEncrypt` will start the encryption process for the selected file, whereas clicking on `btnDecrypt` will decrypt the file. The resulting encrypted or decrypted files are stored in the same directory as the input file with prefixes "encrypted_" or "decrypted_" added to the original filename.
+
+## Running the Project
+
+Follow the steps below to run the application:
+
+1. Clone the repository to your local file system.
+2. Open the solution file in Visual Studio.
+3. Ensure all required NuGet packages are installed.
+4. Run the project by pressing `Ctrl+F5`.
+5. In the main form of the application, click `btnBrowse` and select a file for encryption or decryption.
+6. Choose an encryption algorithm by selecting the appropriate radio button.
+7. Click `btnEncrypt` to encrypt the chosen file, or `btnDecrypt` to decrypt it.
+8. Navigate to the directory of the input file to view the resulting encrypted or decrypted files.
+
+## Important Information
+
+- The output files (encrypted or decrypted) are saved in the same directory as the source file.
+- The resulting files are named by adding the "encrypted_" or "decrypted_" prefix to the original filename.
