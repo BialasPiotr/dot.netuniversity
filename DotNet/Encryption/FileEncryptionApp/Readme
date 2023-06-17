@@ -1,4 +1,4 @@
- File Encryption App
+ #File Encryption App
 The File Encryption App is a simple desktop application written in C# using Windows Forms. The application allows users to encrypt and decrypt text files using chosen algorithms: TripleDES or AES.
 
 Algorithms
