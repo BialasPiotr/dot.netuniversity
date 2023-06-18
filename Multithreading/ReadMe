@@ -1,0 +1,29 @@
+# Multithreading Demo Application
+
+This is a simple application that demonstrates multithreading in performing various mathematical calculations. The application includes three buttons and corresponding labels that display the results of the calculations.
+
+## Instructions
+
+1. The main form (Form1) contains three buttons (button1, button2, button3) and three labels (label1, label2, label3).
+2. Place the three buttons on the form, one below the other, and name them `button1`, `button2`, and `button3`. Set their Text properties to "Start thread 1", "Start thread 2", and "Start thread 3", respectively.
+3. Place three labels next to the corresponding buttons on the form and name them `label1`, `label2`, and `label3`. Set their Text property to an empty string.
+4. Program the Click event for each button to start the corresponding threads (`thread1`, `thread2`, `thread3`), which perform mathematical calculations using the corresponding methods: `CalculateFactorial`, `CalculateFibonacci`, and `CalculateSumOfSquares`.
+5. Add a `Thread.Sleep(100)` delay in each of the calculation methods (`CalculateFactorial`, `CalculateFibonacci`, `CalculateSumOfSquares`) to simulate a longer calculation time and observe the benefits of multithreading.
+6. Create `RunThread1`, `RunThread2`, and `RunThread3` methods to run on the threads. In each of these methods, call the appropriate calculation method and then update the value of the `Text` property for the corresponding calculation result label using the `Invoke` method.
+7. Once you have completed the above steps, the application should allow three different mathematical calculations to be performed simultaneously on separate threads. The results will be displayed on the corresponding labels when the calculations are complete.
+
+## Usage
+
+To use this application, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Open the solution in your preferred C# development environment.
+3. Build the solution to ensure all dependencies are resolved.
+4. Run the application.
+5. Click on the "Start thread 1" button to initiate the first mathematical calculation.
+6. Click on the "Start thread 2" button to initiate the second mathematical calculation.
+7. Click on the "Start thread 3" button to initiate the third mathematical calculation.
+8. Wait for the calculations to complete.
+9. Observe the results displayed on the corresponding labels (`label1`, `label2`, `label3`).
+
+Feel free to modify and extend this application according to your needs.
