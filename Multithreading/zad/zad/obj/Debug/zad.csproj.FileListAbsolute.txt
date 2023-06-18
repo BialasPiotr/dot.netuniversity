@@ -1,0 +1,11 @@
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\bin\Debug\zad.exe.config
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\bin\Debug\zad.exe
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\bin\Debug\zad.pdb
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.csproj.AssemblyReference.cache
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.csproj.SuggestedBindingRedirects.cache
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.Form1.resources
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.Properties.Resources.resources
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.csproj.GenerateResource.cache
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.csproj.CoreCompileInputs.cache
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.exe
+C:\Users\biala\Desktop\Zadanie 3\zad\zad\obj\Debug\zad.pdb
