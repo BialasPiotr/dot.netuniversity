@@ -1,0 +1,6 @@
+C:\Users\48600\Desktop\DotNet\Serialisationdeserialisation\Serialization\Serialization\obj\Debug\Serialization.csproj.AssemblyReference.cache
+C:\Users\48600\Desktop\DotNet\Serialisationdeserialisation\Serialization\Serialization\obj\Debug\Serialization.csproj.SuggestedBindingRedirects.cache
+C:\Users\48600\Desktop\DotNet\Serialisationdeserialisation\Serialization\Serialization\obj\Debug\Serialization.MyForm.resources
+C:\Users\48600\Desktop\DotNet\Serialisationdeserialisation\Serialization\Serialization\obj\Debug\Serialization.Properties.Resources.resources
+C:\Users\48600\Desktop\DotNet\Serialisationdeserialisation\Serialization\Serialization\obj\Debug\Serialization.csproj.GenerateResource.cache
+C:\Users\48600\Desktop\DotNet\Serialisationdeserialisation\Serialization\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
